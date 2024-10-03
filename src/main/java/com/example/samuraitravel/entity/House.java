@@ -1,4 +1,4 @@
-package com.example.samuraitravel.samuraitravel.entity;
+package com.example.samuraitravel.entity;
 
 import java.sql.Timestamp;
 import jakarta.persistence.Column;

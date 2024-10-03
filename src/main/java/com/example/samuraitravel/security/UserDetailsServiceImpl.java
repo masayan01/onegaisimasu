@@ -1,4 +1,4 @@
-package com.example.samuraitravel.samuraitravel.security;
+package com.example.samuraitravel.security;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -10,8 +10,8 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import com.example.samuraitravel.samuraitravel.entity.User;
-import com.example.samuraitravel.samuraitravel.repository.UserRepository;
+import com.example.samuraitravel.entity.User;
+import com.example.samuraitravel.repository.UserRepository;
 
 @Service
 public class UserDetailsServiceImpl implements UserDetailsService {

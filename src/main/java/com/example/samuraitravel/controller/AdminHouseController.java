@@ -1,4 +1,4 @@
-package com.example.samuraitravel.samuraitravel.controller;
+package com.example.samuraitravel.controller;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -16,11 +16,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
  import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import com.example.samuraitravel.samuraitravel.entity.House;
-import com.example.samuraitravel.samuraitravel.form.HouseRegisterForm;
-import com.example.samuraitravel.samuraitravel.form.HouseEditForm;
-import com.example.samuraitravel.samuraitravel.repository.HouseRepository;
-import com.example.samuraitravel.samuraitravel.service.HouseService;
+import com.example.samuraitravel.entity.House;
+import com.example.samuraitravel.form.HouseRegisterForm;
+import com.example.samuraitravel.form.HouseEditForm;
+import com.example.samuraitravel.repository.HouseRepository;
+import com.example.samuraitravel.service.HouseService;
 
 @Controller
 @RequestMapping("/admin/houses")

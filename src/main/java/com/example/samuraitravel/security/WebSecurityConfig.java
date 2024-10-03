@@ -1,4 +1,4 @@
-package com.example.samuraitravel.samuraitravel.security;
+package com.example.samuraitravel.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

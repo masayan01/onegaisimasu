@@ -1,4 +1,4 @@
-package com.example.samuraitravel.samuraitravel.form;
+package com.example.samuraitravel.form;
 
 import org.springframework.web.multipart.MultipartFile;
  

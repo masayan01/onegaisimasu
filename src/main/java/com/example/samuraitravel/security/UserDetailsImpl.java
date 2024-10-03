@@ -1,9 +1,9 @@
-package com.example.samuraitravel.samuraitravel.security;
+package com.example.samuraitravel.security;
 
 import java.util.Collection;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
-import com.example.samuraitravel.samuraitravel.entity.User;
+import com.example.samuraitravel.entity.User;
 
 public class UserDetailsImpl implements UserDetails {
     private final User user;
